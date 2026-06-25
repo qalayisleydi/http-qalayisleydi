@@ -1,0 +1,34 @@
+title: "HTTP qalay isleydi?"
+lang: kaa
+theme: howitworks-theme
+baseurl: ""
+url: "https://http.qalayisleydi.uz"
+
+collections:
+  docs:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: doc
+
+howitworks:
+  wordmark: "Qalay isleydi"
+  wordmark_url: "https://qalayisleydi.uz"
+  topic_crumb: "HTTP"
+  tagline: "Hámme ushın biypul hám ashıq bilim"
+  nav:
+    - label: "BAS BET"
+      url: "https://qalayisleydi.uz"
+  footer_links:
+    - label: "Telegram"
+      url: "https://t.me/qalayisleydi/"
+    - label: "GitHub"
+      url: "https://github.com/qalayisleydi/"
+  copyright: "© 2026 · Ashıq derek"
+  dark_mode: true
+  edit_base_url: "https://github.com/qalayisleydi/http-qalayisleydi/edit/main/"
+  repo: "https://github.com/qalayisleydi/http-qalayisleydi"
