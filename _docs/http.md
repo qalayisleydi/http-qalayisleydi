@@ -292,7 +292,7 @@ Alǵan bilimlerińizdi bekkemlew ushın tómendegi wazıypalardı orınlap kóri
   - `/about` ushıń — "Biz haqqında" teskti.
   - Basqa hár qanday path ushın — `404 Not Found` juwabı qaytsın.
 
-
+Nátiyjeler tómendegishe bolıwı kerek:
 <figure>
   <img src="/assets/images/homepage.png" alt="2-súwret: bas bet">
   <figcaption>2-súwret: bas bet</figcaption>
