@@ -2,7 +2,7 @@
 layout: doc
 title: "HTTP qalay isleydi?"
 author: "Turdıbek Jumabaev"
-updated: "2026-06-25"
+updated: "2026-06-29"
 topic: "HTTP"
 permalink: /
 ---
