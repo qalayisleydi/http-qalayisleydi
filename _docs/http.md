@@ -7,7 +7,7 @@ topic: "HTTP"
 permalink: /
 ---
 
-Hár kún brauzer arqalı saytlardı ashıw waqıtında sayt atı aldındaǵı "http://" qosımtasına kózimiz túsedi. Biz oǵan derlik itibar bermeymiz. Búgin tolıq dıqqatımızdı HTTP'ge qaratıp, onı úyrenemiz. Ol ne ekenin, qanday waziypa atqarıp turǵanın túsiniwge háreket etemiz. Maqala dawamında tek úyreniw menen sheklenip qalmay, úyrengenlerimizdi bekkemlew ushın ózim 0den HTTP server qurıp kóremiz.
+Hár kún brauzer arqalı saytlardı ashıw waqıtında sayt atı aldındaǵı "http://" qosımtasına kózimiz túsedi. Biz oǵan derlik itibar bermeymiz. Búgin tolıq dıqqatımızdı HTTP'ge qaratıp, onı úyrenemiz. Ol ne ekenin, qanday waziypa atqarıp turǵanın túsiniwge háreket etemiz. Maqala dawamında tek úyreniw menen sheklenip qalmay, úyrengenlerimizdi bekkemlew ushın ózimiz 0den HTTP server qurıp kóremiz.
 
 ## Protokol ne?
 
