@@ -1,8 +1,12 @@
 title: "HTTP qalay isleydi?"
+description: "HTTP protokolı qalay isleytuǵınin úyreniń: soraw hám juwap anatomiyası, Python'da HTTP server qurıw."
 lang: kaa
 theme: howitworks-theme
 baseurl: ""
 url: "https://http.qalayisleydi.uz"
+
+plugins:
+  - jekyll-sitemap
 
 collections:
   docs:

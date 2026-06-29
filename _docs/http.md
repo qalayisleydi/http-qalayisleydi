@@ -1,7 +1,9 @@
 ---
 layout: doc
 title: "HTTP qalay isleydi?"
+description: "HTTP protokolı ne, qalay isleydi, soraw hám juwap anatomiyası hám Python'da 0den HTTP server qurıw."
 author: "Turdıbek Jumabaev"
+date: 2026-06-29
 updated: "2026-06-29"
 topic: "HTTP"
 permalink: /
