@@ -243,9 +243,7 @@ Server iske tústi: http://127.0.0.1:8080
 Endi brauzerde `http://127.0.0.1:8080` mánzilin ashıp kórsek boladı:
 
 <figure>
-  <div class="figure-placeholder">
-    <img src="/assets/images/image.png" alt="http://127.0.0.1:8080 brauzerde ashılǵan jaǵday">
-  </div>
+  <img src="/assets/images/image.png" alt="http://127.0.0.1:8080 brauzerde ashılǵan jaǵday">
   <figcaption>http://127.0.0.1:8080 brauzerde ashılǵan jaǵday</figcaption>
 </figure>
 
