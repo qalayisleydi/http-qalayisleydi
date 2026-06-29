@@ -229,7 +229,7 @@ Server kodın jazıp boldıq, endi iske túsirip tekserip kórsek boladı.
 
 ## Serverdi iske túsirip, tekseremiz
 
-Iske túsiriw ushın kompyuterimizge Python ornatılǵan bolsa bolǵanı, tómendegi buyrıq arqalı serverimizdi iske qosamız:
+Server islewi ushın kompyuterimizge Python ornatılǵan bolsa bolǵanı, tómendegi buyrıq arqalı serverimizdi iske túsiriw múmkin:
 
 ```
 python3 server.py
@@ -243,7 +243,68 @@ Server iske tústi: http://127.0.0.1:8080
 Endi brauzerde `http://127.0.0.1:8080` mánzilin ashıp kórsek boladı:
 
 <figure>
-  <img src="/assets/images/image.png" alt="http://127.0.0.1:8080 brauzerde ashılǵan jaǵday">
-  <figcaption>http://127.0.0.1:8080 brauzerde ashılǵan jaǵday</figcaption>
+  <img src="/assets/images/helloworld.png" alt="1-súwret: brauzerde ashılǵan jaǵday">
+  <figcaption>1-súwret: brauzerde ashılǵan jaǵday</figcaption>
+</figure>
+
+`curl` menen de soraw jiberip kórsek boladı:
+
+```
+curl -v http://127.0.0.1:8080/
+```
+
+Nátiyje:
+
+```
+*   Trying 127.0.0.1:8080...
+* Connected to 127.0.0.1 (127.0.0.1) port 8080
+> GET / HTTP/1.1
+> Host: 127.0.0.1:8080
+> User-Agent: curl/8.7.1
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 200 OK
+< Content-Type: text/plain; charset=utf-8
+< Content-Length: 13
+< 
+* Connection #0 to host 127.0.0.1 left intact
+Sálem álem!
+```
+
+Yashaqay! Serverimiz iske tústi hám biz kútkendey islemekte...
+
+## Sońı
+
+Maqala basında maqsetimiz HTTPdi jaqsı túsiniw hám óz HTTP serverimizdi jazıp kóriw edi. Menińshe biz maqsetimizge jettik. Eger berilgen maǵlıwmatlardı tolıq túsinip ózlestirgen, server kodın jazıp, iske túsirip hám teksergen bolsańız — qutlıqlayman! Bul haqıyqatında da maqtanıwǵa arzıytuǵın nátiyje. Sebebi bunıń barlıǵı web qalay isleytuǵının túsindiredi, siz jazǵan HTTP server — web freymworklardıń negizin kórsetip bere aladı.
+
+## Tapsırma
+
+Alǵan bilimlerińizdi bekkemlew ushın tómendegi wazıypalardı orınlap kóriwdi usınıs etemen:
+
+  1. Juwaptı ózgertiń. Body'ǵa basqa teskt jazıń hám HTML kodtı juwap retinde qaytarıp kórin — brauzerde qanday kórinedi eken?
+  2. `recv`ke kishi san beriń. Máselen 4096nı 10ǵa ózgertip, curl arqalı soraw jiberiń hám qaytqan juwaptı dıqqat penen analiz qılıń.
+  3. `Content-Length` mánisin bilip turıp qáte berip kóriń.
+  4. Sorawǵa qarap hár qıylı juwap qaytarıń. Házir server qálegen sorawǵa birdey juwap qaytaradı. Biraq izde `path`ge qarap juwap qaytarıw imkaniyatı bar. Joqarda úyrengen soraw anatomiyasın esleń. Sol jerde path haqqında aytılǵan. 
+  Tómendegishe islesin:
+
+  - `/` ushın — "Sálem álem!" teksti.
+  - `/about` ushıń — "Biz haqqında" teskti.
+  - Basqa hár qanday path ushın — `404 Not Found` juwabı qaytsın.
+
+
+<figure>
+  <img src="/assets/images/homepage.png" alt="2-súwret: bas bet">
+  <figcaption>2-súwret: bas bet</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/images/aboutpage.png" alt="3-súwret: biz haqqında beti">
+  <figcaption>3-súwret: biz haqqında beti</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/images/pagenotfound.png" alt="4-súwret: bet tabılmadı">
+  <figcaption>4-súwret: bet tabılmadı</figcaption>
 </figure>
 
