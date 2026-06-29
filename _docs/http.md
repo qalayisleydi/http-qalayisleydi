@@ -288,8 +288,8 @@ Alǵan bilimlerińizdi bekkemlew ushın tómendegi wazıypalardı orınlap kóri
   4. Sorawǵa qarap hár qıylı juwap qaytarıń. Házir server qálegen sorawǵa birdey juwap qaytaradı. Biraq izde `path`ge qarap juwap qaytarıw imkaniyatı bar. Joqarda úyrengen soraw anatomiyasın esleń. Sol jerde path haqqında aytılǵan. 
   Tómendegishe islesin:
 
-  - `/` ushın — "Sálem álem!" teksti.
-  - `/about` ushıń — "Biz haqqında" teskti.
+  - "`/`" ushın — "Sálem álem!" teksti.
+  - "`/about`" ushın — "Biz haqqında" teskti.
   - Basqa hár qanday path ushın — `404 Not Found` juwabı qaytsın.
 
 Nátiyjeler tómendegishe bolıwı kerek:
